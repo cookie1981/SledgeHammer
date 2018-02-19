@@ -9366,18 +9366,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Dev\\product.risk-capture\\profiling\\profiling.csproj",
+      "projectUniqueName": "C:\\Dev\\SledgeHammer\\profiling.csproj",
       "projectName": "profiling",
-      "projectPath": "C:\\Dev\\product.risk-capture\\profiling\\profiling.csproj",
+      "projectPath": "C:\\Dev\\SledgeHammer\\profiling.csproj",
       "packagesPath": "C:\\Users\\cookie\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\product.risk-capture\\profiling\\obj\\",
+      "outputPath": "C:\\Dev\\SledgeHammer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Dev\\product.risk-capture\\NuGet.Config",
         "C:\\Users\\cookie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
@@ -9388,8 +9387,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.meer-spacestation.co.uk/nuget": {},
-        "https://nuget.org/api/v2/": {}
+        "https://nuget.meer-spacestation.co.uk/nuget": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>Perf2.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MicroMachines.Common.Testing" Version="1.0.223" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RiskCapture\RiskCapture.csproj" />
+    <ProjectReference Include="..\..\test\RiskCapture.Tests\RiskCapture.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MicroMachines.Common">
+      <HintPath>..\..\..\micromachines.common\src\MicroMachines.Common\bin\Debug\netstandard2.0\MicroMachines.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

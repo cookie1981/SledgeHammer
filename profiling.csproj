@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bson\**" />
+    <Compile Remove="Configuration\**" />
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="DateTimeProvider\**" />
+    <Compile Remove="HealthChecks\**" />
+    <Compile Remove="HttpResponses\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Perf2\**" />
+    <Compile Remove="Perf3\**" />
+    <Compile Remove="PerformanceProfiling\**" />
+    <Compile Remove="Perf\**" />
+    <Compile Remove="RequestValidation\**" />
+    <Compile Remove="ServiceCollectionExtensions\**" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="Storage\**" />
+    <EmbeddedResource Remove="Bson\**" />
+    <EmbeddedResource Remove="Configuration\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="DateTimeProvider\**" />
+    <EmbeddedResource Remove="HealthChecks\**" />
+    <EmbeddedResource Remove="HttpResponses\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Perf2\**" />
+    <EmbeddedResource Remove="Perf3\**" />
+    <EmbeddedResource Remove="PerformanceProfiling\**" />
+    <EmbeddedResource Remove="Perf\**" />
+    <EmbeddedResource Remove="RequestValidation\**" />
+    <EmbeddedResource Remove="ServiceCollectionExtensions\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Storage\**" />
+    <None Remove="Bson\**" />
+    <None Remove="Configuration\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="DateTimeProvider\**" />
+    <None Remove="HealthChecks\**" />
+    <None Remove="HttpResponses\**" />
+    <None Remove="Models\**" />
+    <None Remove="Perf2\**" />
+    <None Remove="Perf3\**" />
+    <None Remove="PerformanceProfiling\**" />
+    <None Remove="Perf\**" />
+    <None Remove="RequestValidation\**" />
+    <None Remove="ServiceCollectionExtensions\**" />
+    <None Remove="Services\**" />
+    <None Remove="Storage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MicroMachines.Common" Version="1.0.226" />
+    <PackageReference Include="MicroMachines.Common.Core" Version="1.0.226" />
+    <PackageReference Include="MicroMachines.Common.Mongo" Version="1.0.226" />
+    <PackageReference Include="MicroMachines.Common.Testing" Version="1.0.226" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.2" />
+    <PackageReference Include="Risk.Schema.Validator" Version="1.1.68" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RiskCapture.Tests">
+      <HintPath>..\test\RiskCapture.Tests\bin\Debug\netcoreapp2.0\RiskCapture.Tests.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
